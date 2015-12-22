@@ -1113,12 +1113,11 @@ different positions in the loop:
 
 =head3 repeat/index
 
-I<index> returns the numeric position of this item within the loop, starts with
-one not zero.
+I<index> returns the numeric position of this item within the loop, starts with 0.
 
 =head3 repeat/number
 
-I<number> is an alias for I<index>.
+I<number> is the same as I<index>, but starts with 1.
 
 =head3 repeat/even
 
